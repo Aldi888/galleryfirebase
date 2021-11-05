@@ -1,5 +1,5 @@
 import { useState, useEffect, FormEvent } from 'react';
-import * as C from './App.styles';
+//import * as C from './App.styles';
 import * as Photos from './services/photos';
 import { Photo } from './types/Photo';
 import { PhotoItem } from './components/PhotoItem';

@@ -1,8 +1,8 @@
 import { useState, useEffect, FormEvent } from 'react';
-//import * as C from './App.styles';
+import * as C from 'App.styles';
 import * as Photos from './services/photos';
 import { Photo } from './types/Photo';
-import { PhotoItem } from './components/PhotoItem';
+import { PhotoItem } from '../components/PhotoItem';
 
 const App = () => {
   const [uploading, setUploading] = useState(false);

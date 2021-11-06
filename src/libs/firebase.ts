@@ -14,6 +14,6 @@ const firebaseConfig = {
 };
 
 
-const galleryapp = initializeApp(firebaseConfig);
+const firebaseapp = initializeApp(firebaseConfig);
 
-export const storage = getStorage(galleryapp);
+export const storage = getStorage(firebaseapp);
